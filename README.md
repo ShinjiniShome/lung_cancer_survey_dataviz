@@ -6,15 +6,16 @@ The source dataset used here can be found : https://www.kaggle.com/datasets/mysa
 It has also been added to the repository as "Lung Cancer Survey.csv".  
 All binary fields having 1 and 2 have been converted to NO and YES values respectively for ease of visualization. (1 = NO , 2 = YES) 
 
-<!--
+
 
 # Data Description
-The original dataset contains the columns Country Names, Country Codes and years 1991 to 2021.  
-The dataset contains data regarding the unemployment rates of countries and regions.
+
+<!-- The original dataset contains the columns Country Names, Country Codes and years 1991 to 2021.  
+The dataset contains data regarding the unemployment rates of countries and regions. -->
 
 # Tableau Dashboard
-The Dashboard is published on Tableau Public under the link : https://public.tableau.com/views/WorldUnemploymentDataViz/Dashboard2?:language=en-US&:display_count=n&:origin=viz_share_link
-
+The Dashboard is published on Tableau Public under the link : https://public.tableau.com/views/LungCancerSurveyDataViz/LUNGCANCERSURVEY?:language=en-US&:display_count=n&:origin=viz_share_link
+<!--
 The individual viz's can be accessed and interacted with in the tabs of the above dashboard link.  
 The dashboard contains 2 filters, country name and year through which the unemployment rates can be visualized.  
 The look and feel of the dashboard is shared as below.  
