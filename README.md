@@ -1,31 +1,49 @@
 # lung_cancer_survey_dataviz
-Analysis and Visualization of Symptoms, Lifestyle and probable Causing Factors of Lung Cancer from a Survey using Tableau Public.
+Analysis and Visualization of a Lung Cancer Survey which shows Symptoms, Lifestyle Factors and Issues faced by people. The visualization is created using the platform Tableau Public.
 
 # Dataset
 The source dataset used here can be found : https://www.kaggle.com/datasets/mysarahmadbhat/lung-cancer  
 It has also been added to the repository as "Lung Cancer Survey.csv".  
 All binary fields having 1 and 2 have been converted to NO and YES values respectively for ease of visualization. (1 = NO , 2 = YES) 
 
-
-
 # Data Description
-
-<!-- The original dataset contains the columns Country Names, Country Codes and years 1991 to 2021.  
-The dataset contains data regarding the unemployment rates of countries and regions. -->
+The dataset contains columns GENDER, AGE,	SMOKING, YELLOW_FINGERS, ANXIETY, PEER_PRESSURE, CHRONIC DISEASE, FATIGUE, ALLERGY, WHEEZING, ALCOHOL CONSUMING, COUGHING, SHORTNESS OF BREATH, SWALLOWING DIFFICULTY, CHEST PAIN, LUNG_CANCER.  
+All fields except Gender and Age have YES and NO values indicating the presence or absence of the respective factors.
 
 # Tableau Dashboard
 The Dashboard is published on Tableau Public under the link : https://public.tableau.com/views/LungCancerSurveyDataViz/LUNGCANCERSURVEY?:language=en-US&:display_count=n&:origin=viz_share_link
-<!--
 The individual viz's can be accessed and interacted with in the tabs of the above dashboard link.  
-The dashboard contains 2 filters, country name and year through which the unemployment rates can be visualized.  
-The look and feel of the dashboard is shared as below.  
-Images have also been uploaded in the repository.
+The dashboard contains 2 filters, AGE GROUP (BELOW 50, 50-64, 65-79, 80 AND ABOVE) and LUNG CANCER PATIENT (ALL, YES or NO). One or a combination of both filters can be used to visualize required information on the dashboard.  
+PLEASE NOTE : The dashboard also contains further ACTION FILTERS for the ease of visualization of information based on further specific requirements.   
 
-<div class='tableauPlaceholder' id='viz1694975854395' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;world_unemployment_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldUnemploymentDataViz&#47;Dashboard2&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='WorldUnemploymentDataViz&#47;Dashboard2' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Wo&#47;WorldUnemploymentDataViz&#47;Dashboard2&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>  
+Action Filters are on Patients by Gender, Age Group, Axiety and Peer Pressure Heat Map and Lifestyle Factors( Alcohol Consumption, Smoking and Presence of Chronic Disease).
+
+  
+The look and feel of the dashboard is shared as below...   
+
+<div class='tableauPlaceholder' id='viz1695072505257' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lu&#47;LungCancerSurveyDataViz&#47;LUNGCANCERSURVEY&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='LungCancerSurveyDataViz&#47;LUNGCANCERSURVEY' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Lu&#47;LungCancerSurveyDataViz&#47;LUNGCANCERSURVEY&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<div class='tableauPlaceholder' id='viz1695074965913' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Q&#47;5QXJHZMYW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;5QXJHZMYW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;5Q&#47;5QXJHZMYW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+ACTION FILTER ON GENDER OF PEOPLE WITH LUNG CANCER
+
+<div class='tableauPlaceholder' id='viz1695074740351' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SG&#47;SGZB3F4TX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;SGZB3F4TX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;SG&#47;SGZB3F4TX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div> 
 
 
-<div class='tableauPlaceholder' id='viz1694976055947' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;world_unemployment_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;K2&#47;K24R68853&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;K24R68853' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;K2&#47;K24R68853&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>  
+ACTION FILTER ON AGE GROUP OF PEOPLE
+<div class='tableauPlaceholder' id='viz1695075046126' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TKHWWZNKY&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;TKHWWZNKY' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;TK&#47;TKHWWZNKY&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
 
+
+ACTION FILTER ON HEAT MAP
+<div class='tableauPlaceholder' id='viz1695075095210' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;H6&#47;H6TN63QGX&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;H6TN63QGX' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;H6&#47;H6TN63QGX&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+ACTION FILTER ON LIFESTYLE FACTORS
+<div class='tableauPlaceholder' id='viz1695075154060' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8X&#47;8XMG5QCMD&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;8XMG5QCMD' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;8X&#47;8XMG5QCMD&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+COMBINATION OF MULTIPLE ACTION FILTERS ALSO CAN BE USED
+<div class='tableauPlaceholder' id='viz1695075224824' style='position: relative'><noscript><a href='https:&#47;&#47;github.com&#47;ShinjiniShome&#47;lung_cancer_survey_dataviz'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75SGF6HTW&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;75SGF6HTW' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;75&#47;75SGF6HTW&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>
+
+<!--
 The individual components of the dashboard are as follows...
 
 ## Viz 1 : World Unemployment Rates by Year
